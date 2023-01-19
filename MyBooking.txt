@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        #home {
+            background: url('img/background.jpg') no-repeat center center fixed;
+            height: 85vh;
+            position: relative;
+            width: 100%;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container-nav">
+            <div class="site-title">
+                <h1>Empire Cuts</h1>
+                <p class="subtitle">Welcome to Empire Cuts</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Homepage.php" class="current-page"></a></li>
+                    <li><a href="gallery.php">Gallery</a></li>
+                    <li><a href="Members.php">Members</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="Booking.php">Booking</a></li>
+                    
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="home">
+            <div class="overlay">
+                <div class="landing-text">
+                    <h3>Welcome to Empire Cuts we are here for you</h3> 
+                    <h1>Empire Cuts</h1>
+                    <hr id="hr-main">
+                    <a href="Booking.php" class="button btn-hire">Booking Appointment</a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
