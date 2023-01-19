@@ -1,2 +1,0 @@
-# MUNEI21
- projects
